@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: 192.168.81.131
+    port: 5672
+    virtual-host: /test
+    username: test
+    password: test
+# 手动ack
+    listener:
+      simple:
+        acknowledge-mode: manual
+    publisher-returns: true
+    publisher-confirm-type: simple
