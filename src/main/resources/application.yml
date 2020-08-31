@@ -9,5 +9,6 @@ spring:
     listener:
       simple:
         acknowledge-mode: manual
+# return 机制
     publisher-returns: true
     publisher-confirm-type: simple
