@@ -12,3 +12,6 @@ spring:
 # return 机制
     publisher-returns: true
     publisher-confirm-type: simple
+  redis:
+    host: 192.168.81.131
+    port: 6379
